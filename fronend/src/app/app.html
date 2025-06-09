@@ -1,0 +1,49 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+<main class="main">
+  <div class="content">
+ <button class="AddMovies" *ngIf="!showForm" (click)="openForm()">Додати фільм</button>
+
+<form class="formAdd" *ngIf="showForm">
+  <h2>Додати фільм</h2>
+  <label class="TextForFormAdd" for="titleMovies">Введіть назву фільму</label><br>
+  <input type="text" name="title" id="titleMovies"><br>
+
+  <label class="TextForFormAdd" for="ratingMovies">Введіть оцінку фільму</label><br>
+    <input type="number" name="rating" id="ratingMovies"><br>
+
+  <label class="TextForFormAdd" for="yearMovies">Введіть рік випуску фільму</label><br>
+    <input type="number" name="year" id="yearMovies"><br>
+
+  <label class="TextForFormAdd" for="genreMovies">Введіть тематику фільму</label><br>
+    <input type="text" name="genre" id="genreMovies"><br>
+
+  <label class="TextForFormAdd" for="imageMovies">Завантажити картинку</label><br>
+<input class="imageMovies" type="file" name="image" id="imageMovies" accept="image/*"><br>
+
+
+    <button class="ButtonAdd">Додати Фільм</button>
+    <button class="ButtonCancel">Скасувати</button>
+  </form>
+  </div>
+</main>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+<router-outlet />

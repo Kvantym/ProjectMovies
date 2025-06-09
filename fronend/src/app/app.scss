@@ -1,0 +1,167 @@
+.content {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 30px 35px;
+
+
+}
+
+.formAdd{
+background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.TextForFormAdd {
+  font-size: 20px;
+  display: flex;
+  justify-content: center; /* горизонтальне центрування */
+  align-items: center;     /* вертикальне центрування */
+  height: 25px;           /* висота контейнера, підлаштуй під свій випадок */
+}
+
+
+
+
+
+
+
+form h2 {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 1.9rem;
+  color: #222;
+  text-align: center;
+  letter-spacing: 0.6px;
+
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #444;
+  font-size: 1rem;
+
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 16px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #3a86ff;
+  box-shadow: 0 0 8px rgba(58, 134, 255, 0.4);
+  outline: none;
+  background: #fff;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(135deg, #3a86ff 0%, #0053ba 100%);
+  box-shadow: 0 6px 18px rgba(58, 134, 255, 0.45);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+
+
+  min-width: 120px;
+}
+
+.formAdd {
+  position: relative; /* Щоб позиціювати кнопки всередині форми */
+  padding-bottom: 120px; /* Додатковий відступ знизу під кнопки */
+}
+
+/* Спільний стиль для двох кнопок */
+.ButtonAdd, .ButtonCancel {
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  min-width: 120px;
+  position: absolute;
+  bottom: 15px; /* Відступ від низу форми */
+}
+
+
+
+/* Кнопка "Додати Фільм" зліва */
+.ButtonAdd {
+  left: 15px;
+  color: #fff;
+  background: linear-gradient(135deg, #3a86ff 0%, #0053ba 100%);
+  box-shadow: 0 6px 18px rgba(58, 134, 255, 0.45);
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+.ButtonAdd:hover {
+  background: linear-gradient(135deg, #0053ba 0%, #003d8f 100%);
+  box-shadow: 0 8px 22px rgba(0, 83, 186, 0.65);
+}
+
+/* Кнопка "Скасувати" справа */
+.ButtonCancel {
+  right: 15px;
+  background: #6c757d;
+  color: white;
+  box-shadow: none;
+  transition: background 0.3s ease;
+}
+
+.ButtonCancel:hover {
+  background: #868e96;
+  color: #1c1e21;
+}
+
+
+.ButtonCancel{
+  position: absolute;
+right: 10px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0053ba 0%, #003d8f 100%);
+  box-shadow: 0 8px 22px rgba(0, 83, 186, 0.65);
+}
+
+button[type="button"] {
+  background: #000911;
+  color: #2e3138;
+  box-shadow: none;
+  transition: background 0.3s ease;
+}
+
+button[type="button"]:hover {
+  background: #868e96;
+  color: #1c1e21;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(58, 134, 255, 0.5);
+}
+.AddMovies {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 0;
+}
