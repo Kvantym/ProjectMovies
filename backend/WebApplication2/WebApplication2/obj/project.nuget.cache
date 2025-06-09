@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "E0hU4PZmra8=",
+  "success": true,
+  "projectFilePath": "E:\\Films\\backend\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\makss\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\9.0.5\\microsoft.aspnetcore.spaservices.extensions.9.0.5.nupkg.sha512",
+    "C:\\Users\\makss\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.5\\microsoft.extensions.fileproviders.abstractions.9.0.5.nupkg.sha512",
+    "C:\\Users\\makss\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.5\\microsoft.extensions.fileproviders.physical.9.0.5.nupkg.sha512",
+    "C:\\Users\\makss\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.5\\microsoft.extensions.filesystemglobbing.9.0.5.nupkg.sha512",
+    "C:\\Users\\makss\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.5\\microsoft.extensions.primitives.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
